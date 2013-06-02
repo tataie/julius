@@ -1,0 +1,73 @@
+﻿{
+	"toJSON": true,
+	"dbInfo": [
+		{
+			"name": "Model",
+			"uuid": "20202020202020202020202020202020"
+		}
+	],
+	"extraProperties": {
+		"version": "1",
+		"classes": {
+			"ROUTES": {
+				"panelColor": "#70CCC2",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": true,
+					"position": {
+						"X": 25,
+						"Y": 20
+					}
+				}
+			}
+		},
+		"model": {
+			"workspaceLeft": 0,
+			"workspaceTop": 0
+		}
+	},
+	"dataClasses": [
+		{
+			"name": "ROUTES",
+			"className": "ROUTES",
+			"collectionName": "ROUTESCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				},
+				{
+					"name": "ROUTE_FROM",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "ROUTE_TO",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "ADULT_PRICE",
+					"kind": "storage",
+					"scope": "public",
+					"type": "number"
+				},
+				{
+					"name": "CHILD_PRICE",
+					"kind": "storage",
+					"scope": "public",
+					"type": "number"
+				}
+			]
+		}
+	],
+	"type": []
+}
